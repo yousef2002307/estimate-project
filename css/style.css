@@ -1,0 +1,113 @@
+body {
+  background-color: #eff2f6;
+}
+section {
+  background-color: #fff;
+  max-width: 40vw;
+  margin: 120px auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+.con {
+  width: 90%;
+
+  margin: 0 auto;
+  text-align: center;
+}
+.con h5 {
+  color: #22274f;
+  text-transform: capitalize;
+}
+.con h4 {
+  color: #171c47;
+  font-size: 31px;
+  margin-top: 20px;
+}
+.con span {
+  color: #babbc8;
+}
+.progress {
+  background-color: #eff2f6;
+  margin-top: 28px;
+  height: 6px;
+  overflow: visible;
+  position: relative;
+}
+.progress > div {
+  width: 50%;
+  height: 100%;
+  background-color: #6975de;
+}
+.progress span:first-of-type {
+  background-color: #f6f7fd;
+
+  border: 1px solid #6975de;
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: -2px;
+  border-radius: 50%;
+  left: 20%;
+}
+.progress span:nth-of-type(2) {
+  background-color: #171c47;
+  /* border: 1px solid #fff; */
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: -10px;
+  color: #a9aaba;
+  text-align: center;
+  border-radius: 50%;
+  left: 45%;
+  line-height: 25px;
+  /* font-size: 19px;*/
+}
+.progress span:last-of-type {
+  background-color: #f6f7fd;
+
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: -2px;
+  border-radius: 50%;
+  left: 99%;
+}
+.d-flex {
+  margin-top: 45px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.d-flex b {
+  display: block;
+}
+.d-flex > div {
+  width: calc(96% / 4);
+}
+.d-flex div:nth-of-type(3) b,
+.d-flex div:nth-of-type(4) b {
+  color: #babbc8;
+}
+div.trial {
+  background-color: #eff2f6;
+  width: 80%;
+  padding: 45px 25px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 52px;
+  border-radius: 15px;
+  margin-bottom: 35px;
+  color: #171c47;
+}
+div.trial h6 {
+  font-size: 21px;
+  color: #171c47;
+}
+div.trial .btn {
+  background-color: #171c47;
+  color: #fff;
+  width: 70%;
+}
